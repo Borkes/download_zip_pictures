@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js logged-in client-root">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        picture
+    </title>
+    <meta name="theme-color" content="#000000">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+</head>
+
+<body>
+    <div id="section">
+        <form action="/download-linux" method="get">
+            <label>
+                <img src="/cat.jpg" alt="" width="200" height="200">
+                <input name="picture" type="checkbox" value="cat.jpg" />
+            </label>
+            <label>
+                <img src="/egg-wolf.jpg" alt="" width="200" height="200">
+                <input name="picture" type="checkbox" value="egg-wolf.jpg" />
+            </label>
+            <div id="button-download">
+                <input name="" type="submit" value="下载" />
+            </div>
+
+        </form>
+    </div>
+</body>
+
+<style>
+    #section {
+        padding: 10px;
+        width: 480px;
+    }
+
+    #button-download {
+        float: right;
+        padding-right: 20px;
+    }
+</style>
+
+</html>

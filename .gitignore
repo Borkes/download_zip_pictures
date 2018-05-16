@@ -1,0 +1,6 @@
+# 模块
+node_modules/
+log/**/*.*
+
+.vscode/**/*.*
+test/
