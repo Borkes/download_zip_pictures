@@ -1,12 +1,6 @@
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-const fs = require('fs');
-const { exec, spawn } = require('child_process');
-const zlib = require('zlib');
-const Readable = require('stream').Readable;
-const archiver = require('archiver');
-
 const app = express();
 
 //统一捕获路由中async抛出的错误
